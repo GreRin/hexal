@@ -345,67 +345,22 @@ main {
 	text-decoration: none;
 }
 
-.facebook::before, 
-.facebook::before {
-	padding: 5px 8px;
-	font-size: 0.7em;
-	background-color: #a4dbd4;
-	outline: none !important;
-	text-decoration: none !important;
-	content: "\f09a";
+.fa-facebook-square, .fa-google-plus-square, .fa-linkedin {
+	font-size: 1.4em;
+	color: #a4dbd4;
 }
 
-.twitter::before {
-	padding: 5px 6px;
-	font-size: 0.7em;
-	background-color: #6ccbbe;
-	outline: none !important;
-	text-decoration: none !important;
-	content: "\f099";
+.fa-twitter-square, .fa-pinterest-square, .fa-dribbble-square {
+	font-size: 1.4em;
+	color: #6dcbbe;
 }
 
-.google::before {
-	padding: 5px 6px 5px 7px;
-	font-size: 0.7em;
-	background-color: #7ed0c5;
-	outline: none !important;
-	text-decoration: none !important;
-	content: "\f0d5";
-}
-
-.pinterest::before {
-	padding: 5px 7px;
-	font-size: 0.7em;
-	background-color: #abddd7;
-	outline: none !important;
-	text-decoration: none !important;
-	content: "\f231";
-}
-
-.linkedin::before {
-	padding: 5px 7px;
-	font-size: 0.7em;
-	background-color: #abddd7;
-	outline: none !important;
-	text-decoration: none !important;
-	content: "\f0e1";
-}
-
-.dribbble::before {
-	padding: 5px 7px;
-	font-size: 0.7em;
-	background-color: #6dcbbe;
-	outline: none !important;
-	text-decoration: none !important;
-	content: "\f17d";
-}
-
-.facebook:hover, 
-.twitter:hover, 
-.google:hover, 
-.pinterest:hover, 
-.linkedin:hover, 
-.dribbble:hover {
+.fa-facebook-square:hover, 
+.fa-twitter-square:hover, 
+.fa-google-plus-square:hover, 
+.fa-pinterest-square:hover, 
+.fa-linkedin:hover, 
+.fa-dribbble-square:hover {
 	outline: none !important;
 	text-decoration: none !important;
 	color: #cde4e1;
